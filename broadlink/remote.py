@@ -171,3 +171,8 @@ class rm4(rm4pro):
     """For backwards compatibility."""
 
     TYPE = "RM4"
+
+class rm5plus(rm4pro):
+    """For RM% Plus"""
+
+    TYPE = "RM5PLUS"
